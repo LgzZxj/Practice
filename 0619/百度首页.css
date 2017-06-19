@@ -1,0 +1,51 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-19 19:28:06
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-19 21:00:28
+*/
+/* 整体布局开始 */
+body{
+  text-align: center;
+}
+/* 整体布局结束 */
+
+/* 页眉开始 */
+header{
+  /* text-align: center; */
+}
+/* 页眉结束 */
+
+/* 导航开始 */
+nav{
+  word-spacing: 25px;
+}
+
+nav a{
+  color: gray;
+}
+/* 导航结束 */
+
+/* 表单区开始 */
+#text{
+  width: 400px;
+  height: 34px;
+}
+
+#submit{
+  width: 100px;
+  height: 40px;
+  background-color: skyblue;
+}
+/* 表单区结束 */
+
+/* 页脚开始 */
+footer{
+  font-size: 12px;
+  color:gray;
+}
+
+footer a{
+  font-size:12px;
+  color:gray;
+}
