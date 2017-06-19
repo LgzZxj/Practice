@@ -1,0 +1,55 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-19 21:02:43
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-19 21:39:14
+*/
+/* header部分开始 */
+header{
+  text-align: center;
+}
+/* header部分结束 */
+
+/* section部分开始 */
+section{
+  text-align: center;
+  font-size: 12px;
+
+}
+
+section #text{
+  width: 600px;
+  height: 40px;
+  border: 1.5px gray solid;
+}
+
+#one{
+  padding-top: 30px;
+}
+
+section #submit{
+  width: 120px;
+  height: 40px;
+  background-color: #7CFC00;
+}
+
+section #button{
+  width: 100px;
+  height:40px;
+  background-color: #7CFC00;
+}
+/* section部分结束 */
+
+/* footer部分开始 */
+footer{
+  text-align: center;
+  font-size: 12px;
+  padding-top: 30px;
+}
+
+footer a{
+  font-size: 12px;
+  text-decoration: none;
+  color: gray;
+}
+/* footer部分结束 */
