@@ -1,0 +1,40 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-19 21:49:08
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-19 22:20:39
+*/
+/* header开始 */
+header{
+  text-align: center;
+}
+
+header #date{
+  color: gray;
+}
+
+header #xinlang{
+  color: red;
+}
+
+header a{
+  color: blue;
+}
+/* header结束 */
+
+
+/* section开始 */
+section{
+  text-indent: 36px;
+  font-size: 18px;
+}
+
+section .weibo{
+  color: skyblue;
+}
+/* section结束 */
+
+
+/* footer开始 */
+
+/* footer结束 */
