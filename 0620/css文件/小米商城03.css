@@ -1,0 +1,46 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-20 19:48:44
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-20 20:27:51
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  height: 50px;
+  background-color: #333;
+   line-height: 50px;
+  text-align: center;
+  word-spacing: 10px;
+}
+
+nav span a{
+  color:#b0b0b0;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:orange;
+}
+
+#one{
+  width: 100px;
+  height:50px;
+  display: inline-block;
+  background-color: gray;
+  color:#b0b0b0;
+}
+
+#one:hover a{
+  cursor: pointer;
+}
+
+span:last-child:hover a{
+  color:orange;
+}
+
+

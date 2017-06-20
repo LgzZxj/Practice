@@ -1,0 +1,49 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-20 17:04:04
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-20 18:39:02
+*/
+nav span{
+  display: inline-block;
+  width: 120px;
+  height: 58px;
+  text-align: center;
+}
+
+nav span a{
+  /* display: inline-block; */
+  line-height: 58px;
+  font-size: 16px;
+}
+
+nav span#a1{
+  background-image: url("../images/bg1.png");
+}
+
+nav span#a2{
+  background-image: url("../images/bg2.png");
+}
+nav span#a3{
+  background-image: url("../images/bg3.png");
+}
+nav span#a4{
+  background-image: url("../images/bg4.png");
+}
+
+nav span#a1:hover{
+  background-image: url("../images/bg5.png");
+}
+
+nav span#a2:hover{
+  background-image: url("../images/bg6.png");
+}
+
+nav span#a3:hover{
+  background-image: url("../images/bg7.png");
+}
+
+nav span#a4:hover{
+  background-image: url("../images/bg1.png");
+}
+

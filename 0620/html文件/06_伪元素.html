@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+          
+          div{
+            background-color: yellow;
+            width: 500px;
+            height: 500px;
+          }
+          
+          div::before{
+              content: "这是before伪元素";
+              display:block;
+              color:red;
+              background-color: blue;
+
+          }
+
+          div::after{
+              content: "这是after伪元素";
+              color:yellow;
+              display: block;
+              background-color: red;
+              width: 400px;
+              height:200px; 
+          }
+          
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>
