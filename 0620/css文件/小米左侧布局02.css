@@ -1,0 +1,45 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-20 21:42:59
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-20 21:55:58
+*/
+*{
+  padding:0;
+  margin: 0;
+}
+
+ul{
+  width:200px;
+  background-color: black;
+}
+
+li{
+  list-style: none;
+  height: 40px;
+  color:white;
+  text-align: center;
+  line-height: 40px;
+}
+
+ul li:hover{
+  background-color: orange;
+}
+
+ul li div{
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  position: fixed;
+  display: none;
+  left: 200px;
+  top: 0;
+}
+
+/* ul #one:hover div{
+  display: block;
+} */
+
+ ul li:nth-child(1):hover div{
+      display: block;
+     }
