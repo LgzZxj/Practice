@@ -1,0 +1,40 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-20 20:59:53
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-20 23:14:28
+*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+div#one{
+  width: 200px;
+  background-color: black;
+}
+
+div span{
+  height: 50px;
+  color:white;
+  line-height: 50px;
+  display: block;
+  text-align: center;
+}
+
+span:hover{
+  background-color: orange;
+}
+
+#one div{
+  display: none;
+  position: fixed;
+  height: 300px;
+  width: 300px;
+  left: 200px;
+  top: 0;
+}
+
+#one #mobile:hover div{
+  display: block;
+}
