@@ -1,0 +1,178 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-22 16:24:06
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-22 23:24:28
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+/* banner开始 */
+div#banner{
+  height: 120px;
+  background-image: url(../images/cms_14979562653972_ayKCu.jpg);
+  background-position: center top;
+}
+/* banner结束 */
+
+/* 版心开始 */
+.w{
+  width: 1226px;
+  margin: 0 auto;
+  min-width: 1226px;
+}
+/* 版心结束 */
+
+/* 导航开始 */
+nav{
+  height: 50px;
+  background-color: #333;
+}
+
+nav .w{
+  position: relative;
+  word-spacing: 10px;
+}
+
+nav .left, nav .right{
+  position: absolute; 
+  line-height: 50px;
+}
+
+nav .right{
+  right: 0;
+}
+
+nav div a{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+nav div a:hover{
+  color: orange;
+}
+
+nav .shopping{
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  background-color: #666;
+  text-align: center;
+}
+
+nav .shopping:hover{
+  cursor: pointer;
+}
+
+nav .shopping:hover a{
+  color: orange;
+}
+/* 导航结束 */
+
+/* header部分开始 */
+header{
+  height: 100px;
+  /* background-color: #fcc; */
+}
+
+header .w{
+  position: relative;
+  background-color: #fcc;
+
+}
+
+header .logo{
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header .hehe{
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+header .hotwords{
+  word-spacing: 10px;
+  display: inline-block;
+  /* vertical-align: middle; */
+}
+
+header .hotwords a{
+  line-height: 100px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+header .search{
+ /*  vertical-align: middle;
+  display: inline-block; */
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 100px;
+}
+
+header .search .text{
+  width: 200px;
+  height: 30px;
+}
+
+header .search .submit{
+  width: 100px;
+  height: 30px;
+}
+/* header部分结束 */
+
+/* aside部分开始 */
+aside .w{
+  position: relative;
+}
+
+aside .background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+aside .leftAll{
+  background-color: rgba(0,0,0,0.6);
+  width: 260px;
+}
+
+aside ul{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+aside ul li{
+  list-style: none;
+  padding-left: 3em;
+  line-height: 40px;
+  font-size: 14px;
+  color: white;
+  word-spacing: 10px;
+}
+
+aside ul li:hover{
+  background-color: orange;
+}
+
+aside ul li:hover div{
+  display: block;
+}
+
+aside ul li div{
+  position: absolute;
+  width: 500px;
+  /* border: 1px solid black; */
+  left:260px;
+  top:0;
+  display: none;
+}
+/* aside部分结束 */
