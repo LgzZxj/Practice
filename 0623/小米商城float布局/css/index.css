@@ -1,0 +1,131 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-23 20:19:41
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-23 22:52:32
+*/
+
+/* top-banner部分 */
+.top-banner{
+  background-image: url(../images/cms_14979562653972_ayKCu.jpg);
+  height: 120px;
+  background-position: center;
+}
+
+/* 导航栏部分 */
+nav{
+  background-color: #333;
+}
+
+nav a{
+  color: #fff;
+  font-size: 12px;
+}
+
+nav .left li{
+  float: left;
+}
+
+nav .right{
+  float: right;
+}
+
+nav .right li{
+  float: left;
+}
+
+nav li{
+  padding: 10px 20px 15px 0;
+}
+
+nav .shopping{
+  display: block;
+  background-color: #666;
+  width: 100px;
+  text-align: center;
+  padding-right: 0; 
+}
+
+nav .shopping:hover{
+  cursor: pointer;
+}
+
+nav .shopping:hover a{
+  color: orange;
+}
+
+/* header部分开始 */
+header .logo1, header .logo2,header .hotwords{
+  float: left;
+  padding: 20px 0 10px 0;
+}
+
+header li{
+  float:left;
+  line-height: 65.6px;
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+header .search{
+  float: right;
+  padding-top: 34px;
+}
+
+header .text{
+  width: 200px;
+  height: 30px;
+}
+
+header .submit{
+  width: 60px;
+  height: 30px;
+}
+
+/* main部分开始 */
+.main .w{
+  position: relative;
+}
+
+.main .side{
+  background-color: rgba(0,0,0,0.6);
+  width: 240px;
+  position: absolute;
+  left: 0;
+  top:0;
+}
+
+.main ul{
+  margin: 20px 0 20px 0;
+  color:#fff;
+  font-size: 14px;
+}
+
+.main ul li{
+  padding-left: 40px;
+  line-height: 40px;
+}
+
+.main ul li:hover{
+  background-color: orange;
+}
+
+.main li div{
+  display: none;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 240px;
+  top: 0;
+}
+
+.main ul li:hover div{
+  display: block;
+}
+
+.main .gt{
+  position: absolute;
+  right: 40px;
+}
+
+
