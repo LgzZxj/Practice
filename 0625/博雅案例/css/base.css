@@ -1,0 +1,32 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-24 21:38:27
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-25 18:41:13
+*/
+*{
+  margin: 0;
+  padding:0;
+}
+
+.w{
+  width: 1200px;
+  margin: 0 auto;
+  min-width: 1200px;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}

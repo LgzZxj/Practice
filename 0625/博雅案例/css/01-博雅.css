@@ -1,0 +1,203 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-24 21:38:40
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-25 20:53:51
+*/
+
+/* 导航栏开始 */
+nav{
+  background-color:  #191D3A;
+  height: 58px;
+}
+
+nav .logo a{
+  float: left;
+  height: 58px;
+  width: 185px;
+  padding-right: 50px;
+  background-repeat: no-repeat;
+  background-image: url("../images/logo.png");
+}
+
+nav ul li{
+  background-color: #191D3A;
+  float: left;
+  padding: 0 20px;
+  height: 58px;
+  line-height: 58px;
+  border-right: 1px solid #555;
+}
+
+nav li:hover a{
+  color: orange;
+}
+
+nav .home{
+  background-color: #555;
+}
+
+
+nav .join{
+  float: right;
+  height: 58px;
+}
+
+nav .join span{
+  display: block;
+  background-color: #0a0;
+  border-radius: 5px;
+  height: 38px;
+  width: 90px;
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+
+nav .join:hover span{
+  background-color: green;
+}
+/* 导航栏结束 */
+
+/* banner部分开始 */
+.banner{
+  position: relative;
+}
+
+.banner>a{
+  display: block;
+  background-image: url("../images/banner.jpg");
+  height: 465px;
+  background-position: center top;
+  z-index: -2;
+}
+
+.banner ul li{
+  /* display: inline-block; */
+  float: left;
+  padding: 0 10px;
+  /* position: absolute; */
+}
+
+.banner ul{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -80px;
+}
+/* banner部分结束 */
+
+/* 视频展示区开始 */
+.content{
+  background: url("../images/indexmainbg.jpg") no-repeat;
+  background-position: bottom;
+}
+.content .show ul{
+  display: flex;
+  justify-content:space-between;
+}
+
+.content .show ul a{
+  color: green;
+  display: block;
+}
+
+.content .show p{
+  text-align: center;
+  margin: 10px 0;
+}
+
+.content .show a{
+  text-align: center;
+}
+
+.content .show{
+  padding: 50px 0;
+}
+/* 视频展示区结束 */
+
+/* 资讯区开始 */
+.info{
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.info .news{
+  width: 50%;
+  background: url("../images/bynewsbg.jpg") no-repeat;
+  background-size: cover;
+  background-origin: border-box;
+  position: relative;
+}
+
+.info .news .more{
+  position: absolute;
+  top:50px;
+  left: 300px;
+}
+
+.info .news ul{
+  padding: 150px 0 0 25px;
+}
+
+.info .news a{
+  color:black;
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.info .jobs{
+  width: 50%;
+  background: url("../images/byhrbg3.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction:column-reverse;
+  position: relative;
+}
+
+.info .jobs .more{
+  position: absolute;
+  top:50px;
+  left: 300px;
+}
+/* 资讯区结束 */
+
+/* footer部分开始 */
+footer{
+  background-color:  #191D3A;
+}
+
+footer .end{
+  color: white;
+  height: 100px;
+}
+
+footer .end1, footer .end2{
+  float: left;
+}
+
+footer a{
+  display: block;
+  line-height: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+footer .end1 a{
+  padding-right: 20px;
+  margin-right: 20px;
+  border-right: 2px solid #ccc;
+}
+
+
+footer .end3{
+  float: right;
+  line-height: 100px;
+  padding-right: 50px;
+}
+
+footer .gov{
+  float: right;
+  height: 64px;
+  padding: 18px 0;
+}
+/* footer部分结束 */
