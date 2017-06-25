@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      
+        /*
+        overflow的取值:
+        1.visible  不隐藏溢出 (默认值)
+        2.hidden  隐藏溢出
+        3.scroll 给盒子增加滚动条
+        4.auto 让浏览器自己决定
+      
+        注意:当取值不为默认的 visible时,则会触发bfc
+          
+        */
+        p {  
+           width: 100px;
+           height: 100px;
+           border: dotted;
+          
+          /* content is not clipped */ 
+           /* overflow: visible;  */
+           overflow: visible;
+       }
+
+    </style>
+</head>
+<body>
+     <p>
+        我知道
+            --汪国真
+
+        欢乐是人生的驿站
+        痛苦是生命的航程
+        我知道
+        当你心绪沉重的时候
+        最好的礼物
+        是送你一片宁静的天空
+
+        你会迷惘
+        也会清醒
+        当夜幕低落的时候
+        你会感受到
+        有一双温暖的眼睛
+
+        我知道
+        当你拭干面颊上的泪水
+        你会灿然一笑
+        那时，我会轻轻对你说
+        走吧　你看
+        槐花正香　月色正明
+    </p>
+    
+</body>
+</html>
