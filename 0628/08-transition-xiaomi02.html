@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+          *{
+            margin: 0;
+            padding: 0;
+          }
+
+          div{
+            width: 250px;
+            height: 350px;
+            background-color: #ffc;
+            margin: 100px 300px;
+            position: relative;
+            overflow: hidden;
+            transition:all 0.3s linear;
+          }
+
+          div>a{
+            display: block;
+            height: 220px;
+            width: 220px;
+            margin: 0 auto;
+          }
+
+          p{
+            /* margin: 0 auto; */
+            text-align: center;
+          }
+
+          .two{
+            height: 100px;
+            width: 250px;
+            position: absolute;
+            bottom: -100px;
+            background-color: orange;
+            /* display: none; */
+            transition:all 0.3s linear;
+          }
+
+          div:hover{
+            box-shadow: 0 10px 40px 5px #aaa;
+          }
+  
+          div:hover .two{
+            /* display: block; */
+            bottom: 0;
+          }
+
+          @
+
+        </style>
+    </head>
+    <body>
+      <div class="container">
+        <a href=""><img src="image/mi.png" height="220" width="220" alt=""></a>
+        <p class="one"><a href="">这是一个链接</a></p>
+        <p class="two"><a href="">这是鼠标滑动显示的内容</a></p>
+      </div>
+    </body>
+</html>
