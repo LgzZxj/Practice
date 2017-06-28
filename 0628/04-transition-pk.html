@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+
+    body{
+      background-color: skyblue;
+    }
+
+    .container{
+      height: 150px;
+      width: 100px;
+      border: 1px solid black;
+      margin: 300px auto;
+      position: relative;
+    }
+
+    .container img{
+      height: 150px;
+      width: 100px;
+      position: absolute;
+      top:0;
+      transform-origin:top right;
+      transition: all 1s;
+    }
+
+    .container:hover img:nth-child(1){
+      transform:rotate(60deg);
+    } 
+
+    .container:hover img:nth-child(2){
+      transform:rotate(120deg);
+    } 
+
+    .container:hover img:nth-child(3){
+      transform:rotate(180deg);
+    } 
+
+    .container:hover img:nth-child(4){
+      transform:rotate(240deg);
+    } 
+
+    .container:hover img:nth-child(5){
+      transform:rotate(300deg);
+    } 
+
+    .container:hover img:nth-child(6){
+      transform:rotate(360deg);
+    }
+
+
+
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <img src="image/pk1.png" height="438" width="310" alt="">
+    <img src="image/pk1.png" height="438" width="310" alt="">
+    <img src="image/pk1.png" height="438" width="310" alt="">
+    <img src="image/pk1.png" height="438" width="310" alt="">
+    <img src="image/pk1.png" height="438" width="310" alt="">
+    <img src="image/pk1.png" height="438" width="310" alt="">
+  </div>
+</body>
+</html>
