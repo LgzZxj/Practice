@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+          .far{
+            background-color: #ffc;
+           /*  height: 500px;
+            width: 500px; */
+          }
+
+          .son1{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            float: left;
+          }
+
+
+          .son2{
+            background-color: green;
+            height: 100px;
+            width: 200px;
+            float: left;
+
+
+
+          }
+
+          .clearfix::after{
+            display: block;
+            content: "";
+            height: 0;
+            clear:both;
+          }
+
+          .haha{
+            background-color: blue;
+            height: 500px;
+            width: 500px;
+          }
+        </style>
+    </head>
+    <body>
+    <div class="far clearfix">
+      <div class="son1"></div>
+      <div class="son2"></div>
+    </div>
+
+    <div class="haha"></div>
+    </body>
+</html>
