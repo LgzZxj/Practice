@@ -1,0 +1,403 @@
+/*nav部分开始*/
+nav{
+  background-color: #dc353b;
+  height: 34px;
+  position: relative;
+}
+
+nav ul li{
+  float:left;
+}
+
+nav ul .space{
+  width: 1px;
+  height: 15px;
+  margin: 0px 17px 0 20px;
+  background-color: #fff;
+  position: relative;
+  top:10px;
+}
+
+nav ul li a{
+  color: #fff;
+  font-size: 12px;
+  line-height: 34px;
+}
+
+nav ul li.last a{
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  width: 60px;
+  box-sizing:border-box;
+  border: 1px solid #fff;
+  position: relative;
+  top:4px;
+  text-align: center;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+/*nav部分结束*/
+
+
+/*header部分开始*/
+header{
+  background-color: #d8def2;
+  height: 68px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #adb1c1;
+}
+
+header .left a{
+  display:block;
+  height: 34px;
+  width:120px;
+  background: url("../images/34.png") no-repeat;
+  background-size:120px 34px;
+  margin-top: 18px;
+}
+
+header ul li{
+  float: left;
+}
+
+header ul li a{
+  display: block;
+  /*float: left;*/
+  height: 68px;
+  line-height: 68px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+  padding: 0 5px;
+  margin: 0 0 0 20px;
+}
+
+header ul .first a{
+  border-bottom: 2px solid #d3282b;
+  color:#d3282b
+}
+
+header ul a:hover{
+  border-bottom: 2px solid #d3282b;
+  color: #d3282b;
+}
+/*header部分结束*/
+
+/*lunbotu开始*/
+.lunbotu{
+  height: 652px;
+  background: url("../images/12.png") no-repeat;
+  margin: 0 auto;
+}
+
+.lunbotu .one a{
+  display: block;
+  height: 652px;
+  width: 620px;
+  background:url("../images/18.png") no-repeat;
+  background-size: cover ;
+  position: relative;
+  left:100px;
+}
+
+.lunbotu .two a{
+  display: block;
+  height: 630px;
+  width: 680px;
+  background:url("../images/19.png") no-repeat;
+  background-size:cover ;
+  position: relative;
+  left: -100px;
+  background-position-y: -100px;
+}
+
+.lunbotu .three li{
+  float: left;
+}
+
+.lunbotu .three li a{
+  display: block;
+  height: 18px;
+  width:18px;
+  box-sizing: border-box;
+  background-color: #adacab;
+  border: 1px solid #adacab;
+  margin-right: 8px;
+  border-radius: 9px;
+}
+
+.lunbotu .three li a:hover{
+  background-color:#fff;
+}
+
+.lunbotu .three{
+  position: absolute;
+  bottom: 32px;
+  margin-left:700px;
+}
+
+.lunbotu .three .first a{
+  background-color: #fff;
+}
+/*lunbotu结束*/
+
+/*news部分开始*/
+.news{
+  background-color: #f9f9f9;
+  height: 41px;
+}
+
+.news ul li{
+  float:left;
+  font-size:12px;
+  line-height: 40px;
+  padding-right:45px;
+}
+/*news部分结束*/
+
+
+/*basic 开始*/
+.basic{
+  height: 420px;
+}
+
+.basic .w{
+  height: 420px;
+  position: relative;
+}
+
+.basic .text{
+  text-align: center;
+  margin-top: 43px;
+}
+
+.basic .text .one{
+  font-size: 30px;
+}
+
+.basic .text .two{
+  font-size:12px;
+  line-height: 60px;
+}
+
+.basic .up{
+  height: 176px;
+  width: 1000px;
+  background: url("../images/41.PNG") no-repeat;
+  background-size: cover ;
+  position: absolute;
+  bottom: 80px;
+}
+/*basic结束*/
+
+/*解决方案开始*/
+.jiejue{
+  height: 500px;
+  background-color: #f9f9f9;
+}
+
+.jiejue .w{
+  /*position: relative;*/
+}
+
+.jiejue .text{
+  text-align: center;
+  padding-top: 43px;
+}
+
+.jiejue .text .one{
+  font-size: 30px;
+}
+
+.jiejue .text .two{
+  font-size:12px;
+  line-height: 60px;
+}
+
+.jiejue ul li.one{
+  height: 175px;
+  width: 175px;
+  float: left;
+  background-image:url("../images/36.png");
+  background-repeat: no-repeat;
+  margin-right: 100px;
+}
+
+.jiejue ul li.two{
+  height: 175px;
+  width: 175px;
+  float: left;
+  background-image:url("../images/37.png");
+  background-repeat: no-repeat;
+  margin-right: 100px;
+}
+.jiejue ul li.three{
+  height: 175px;
+  width: 175px;
+  float: left;
+  background-image:url("../images/38.png");
+  background-repeat: no-repeat;
+  margin-right: 100px;
+}
+.jiejue ul li.four{
+  height: 175px;
+  width: 175px;
+  float: left;
+  background-image:url("../images/39.png");
+  background-repeat: no-repeat;
+}
+
+.jiejue ul{
+  margin-top: 60px;
+}
+
+.jiejue .down span{
+  display: block;
+  width: 250px;
+  padding-top: 20px;
+  text-align: center;
+  float: left;
+}
+/*解决方案结束*/
+
+/*通用部分开始*/
+.ty{
+  height: 995px;
+  background-color: #fff;
+}
+
+.ty .w{
+  /*position: relative;*/
+}
+
+.ty .text{
+  text-align: center;
+  padding-top: 43px;
+}
+
+.ty .text .one{
+  font-size: 30px;
+}
+
+.ty .text .two{
+  font-size:12px;
+  line-height: 60px;
+}
+
+.ty .middle .one{
+  float: left;
+  height: 280px;
+  width: 350px;
+  background: url("../images/56.png") no-repeat;
+  background-size: contain;
+}
+
+.ty .middle .two{
+  float: right;
+  width: 500px;
+  padding-top: 100px;
+}
+
+.ty .middle{
+  border-bottom: 1px solid gray;
+  padding-bottom: 150px;
+}
+
+.ty .down{
+  padding-top: 100px;
+}
+
+.ty .down .one{
+  float: right;
+  height: 280px;
+  width: 350px;
+  background: url("../images/57.png") no-repeat;
+  background-size: contain;
+  background-position-y:50px ;
+}
+
+.ty .down .two{
+  float: left;
+  width: 500px;
+  padding-top: 100px;
+}
+/*通用部分结束*/
+
+/*案例部分开始*/
+.anli{
+  background-color: #f9f9f9;
+  height: 525px;
+}
+
+.anli .w{
+  height: 525px;
+  width: 1000px;
+  background: url("../images/51-1.PNG") no-repeat;
+  background-size: 1000px 525px;
+}
+/*案例部分结束*/
+
+/*品牌开始*/
+.pinpai{
+  background-color: #fff;
+}
+.pinpai .w{
+  height: 350px;
+  width: 1000px;
+  background: url("../images/51-4.PNG");
+  background-size: contain;
+}
+/*品牌结束*/
+
+/*footer部分开始*/
+footer{
+  background-color: #333131;
+}
+
+footer .w{
+  height:200px;
+  border-bottom: 1px solid #dedede;
+}
+
+footer .fl dl{
+  float: left;
+  padding:23px 80px 0 0;
+  color: #fff;
+}
+
+footer .fl dl:last-child{
+  padding-right: 0px;
+}
+
+footer .fl dl dt{
+  font-size: 16px;
+  height: 30px;
+  line-height:30px;
+  color:#fff;
+}
+
+footer .fl dl dd{
+  font-size:12px;
+  height:22px;
+  line-height: 22px;
+  color:#fff;
+}
+
+footer .fl dl dd a{
+  color:#ccc;
+}
+
+footer .fl dl dd a:hover{
+  color:red;
+}
+
+footer .fr{
+  width:200px;
+  height: 150px;
+  background: url("../images/51-3.PNG") no-repeat;
+  margin-top: 23px;
+  background-size: contain;
+}
+
+/*footer部分结束*/
