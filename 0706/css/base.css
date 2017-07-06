@@ -1,0 +1,40 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-28 21:15:38
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-28 21:24:57
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.w{
+  width: 1190px;
+  margin: 0 auto;
+  min-width: 1190px;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+a{
+  text-decoration: none;
+  font-size: 12px;
+}
+
+li{
+  list-style: none;
+}
+
