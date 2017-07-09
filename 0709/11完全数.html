@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script>
+    var i;//0-10000的数
+    var sum=0;//因数和, 初始化为0
+    var a;//因数
+    
+    //判断i是否和因数和相等, 相等则在控制台输出
+    for(i=1; i<=10000; i++){
+      for(a=1; a<i; a++){
+        if(i%a==0){
+          sum=sum+a;
+        }
+      }
+      if (i==sum){
+        console.log(sum);
+      }
+    }
+
+    //对因数进行求和
+    
+    
+    
+    
+  </script>
+</head>
+<body>
+
+</body>
+</html>
