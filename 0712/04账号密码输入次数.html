@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script>
+    var name = 999;
+    var password = 999;
+    var name01 = prompt("请输入账号");
+    var password01 = prompt("请输入密码");
+    for(var i = 3; i>=0 ; i--){
+      if(name == name01 && password == password01){
+        document.write("输入正确");
+        break;
+      }else if(i == 0){
+        alert("输入次数过多,账号已被锁定");
+      }
+      else{
+        name01=prompt("输入错误, 还有"+ i + "次机会,请重新输入账号");
+        password01 = prompt("请输入密码");
+      }
+    }
+  </script>
+</head>
+<body>
+
+</body>
+</html>
