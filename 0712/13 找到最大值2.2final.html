@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    </body>
+</html>
+<script>
+  var one;
+  var two;
+  var three;
+  var four;
+  var max;
+  var arr=[]; //用于标记是否已经输入过0
+  while(true){
+
+    if(one==undefined){
+      var a = Number(prompt("请您输入第一个数字"));
+      a==0 ? arr[0]=0 : undefined;
+      if(String(a)=="NaN"){
+          alert("您输入的数字有误");
+          continue;
+      }else{
+        one =a;
+      }
+      
+    }
+
+    if(two==undefined){
+      var b = Number(prompt("请您输入第二个数字"));
+      if(String(b)=="NaN"){
+          alert("您输入的数字有误");
+          continue;
+      }else{
+        if(b==0){
+          if(arr[0]==0){
+            alert("您只能输入一次0,请重新输入");
+            continue;
+          }else{
+            arr[0]=b;//当第二个值为0 时,存储起来
+          }
+        }
+        two =b;
+      }
+    }
+
+    if(three==undefined){
+      var c = Number(prompt("请您输入第三个数字"));
+      if(String(c)=="NaN"){
+          alert("您输入的数字有误");
+          continue;
+      }else{
+        if(c==0){
+          if(arr[0]==0){
+            alert("您只能输入一次0,请重新输入");
+            continue;
+          }else{
+            arr[0]=c;//第三个值为0 时,存储起来
+          }
+        }
+        three =c;
+      }
+    }
+
+    if(four==undefined){
+
+      var d = Number(prompt("请您输入第四个数字"));
+
+      if(String(d)=="NaN"){
+          alert("您输入的数字有误");
+          continue;
+      }else{
+        if(d==0){
+          if(arr[0]==0){
+            alert("您只能输入一次0,请重新输入");
+            continue;
+          }else{
+            arr[0]=d;//第四个值为0 时,存储起来
+          }
+        }
+        four =d;
+      }
+    }
+    max = one>two?one:two;
+    max = max>three?max:three;
+    max = max>four?max:four;
+    document.write("最大值是:"+max);
+    break;
+  }
+
+</script>

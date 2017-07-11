@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script>
+  var one=new Array();
+  var two=new Array();
+  two[4]=0;
+  while(true){
+    if(!one[0]){
+      two[0]=Number(prompt("请输入第一个数字"));
+      
+      if(String(two[0]) == "NaN"){
+        alert("请重新输入一个数字");
+        continue;
+      }
+      else{
+        one[0] = two[0];
+        if(one[0] == 0) {
+          two[4] ++;
+          one[0]=1;
+        }
+      }
+    }
+    
+    if(!one[1]){
+      two[1]=Number(prompt("请输入第二个数字"));
+      if(String(two[1]) == "NaN"){
+        alert("请重新输入一个数字");
+        continue;
+      }
+      else{
+        one[1] = two[1];
+        if(one[1] == 0) {
+          two[4] ++;
+          one[1]=1;
+          if(two[4]>1){
+            alert("最多一个零");
+            one[1]=0;
+            continue;
+            
+            
+            
+          }
+        }
+      }
+    }
+    
+    if(!one[2]){
+      two[2]=Number(prompt("请输入第三个数字"));
+      if(String(two[2]) == "NaN"){
+        alert("请重新输入一个数字");
+        continue;
+      }
+      else{
+        one[2] = two[2];
+        if(one[2] == 0) {
+          two[4] ++;
+          one[2]=1;
+          if(two[4]>1){
+            alert("最多一个零");
+            one[2]=0;
+            continue;
+            
+            
+          }
+        }
+      }
+    }
+    
+    if(!one[3]){
+      two[3]=Number(prompt("请输入第四个数字"));
+      if(String(two[3]) == "NaN"){
+        alert("请重新输入一个数字");
+        continue;
+      }
+      else{
+        one[3] = two[3];
+        if(one[3] == 0) {
+          two[4] ++;
+          one[3]=1;
+          if(two[4]>1){
+            alert("最多一个零");
+            one[3]=0;
+            continue;
+            
+            
+          }
+        }
+      }
+    }
+    two[5]=two[0]>two[1] ? two[0]:two[1] ;
+    two[5]=two[5]>two[2] ? two[5]:two[2];
+    two[5]=two[5]>two[3] ? two[5]:two[3];
+    document.write("zuida"+two[5]);
+    break;
+  }
+</script>
+</body>
+</html>

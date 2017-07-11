@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      font-size: 40px;
+      color: skyblue;
+    }
+  </style>
+</head>
+<body>
+</body>
+</html>
+<script>
+  var contain = new Array();
+  var max;
+  
+  
+  while(true) {
+    
+    if (!contain[0]) {
+      var a = Number(prompt("请输入第一个数字"));
+      if (String(a) == "NaN") {
+        alert("您输入的用户名和密码有错误,请重新输入");
+        continue;
+      } else {
+        contain[0] = a;
+        contain[0]++;
+      }
+    }
+    if (!contain[1]) {
+      var b = Number(prompt("请输入第二个数字"));
+      if (String(b) == "NaN") {
+        alert("您输入的用户名和密码有错误,请重新输入");
+        continue;
+      }
+      else {
+        if (a == 0 && b == 0) {
+          alert("输入0次数太多，请重新输入");
+          continue;
+        }
+        else {
+          contain[1] = b;
+          contain[1]++;
+        }
+      }
+      
+      
+    }
+    if (!contain[2]) {
+      var c = Number(prompt("请输入第三个数字"));
+      if (String(c) == "NaN") {
+        alert("您输入的用户名和密码有错误,请重新输入");
+        continue;
+      }
+      else {
+        if (a == 0 && c == 0 || b == 0 && c == 0) {
+          alert("输入0次数太多，请重新输入");
+          continue;
+        }
+        else {
+          contain[2] = c;
+          contain[2]++;
+        }
+      }
+    }
+    if (!contain[3]) {
+      var d = Number(prompt("请输入第四个数字"));
+      if (String(d) == "NaN") {
+        alert("您输入的用户名和密码有错误,请重新输入");
+        continue;
+      }
+      else {
+        if (a == 0 && d == 0 || b == 0 && d == 0 || c == 0 && d == 0) {
+          alert("输入0次数太多，请重新输入");
+          continue;
+        }
+        else {
+          contain[3] = d;
+          contain[3]++;
+          
+        }
+      }
+    }
+    max = contain[0] > contain[1] ? contain[0] : contain[1];
+    max = max > contain[2] ? max : contain[2];
+    max = max > contain[3] ? max : contain[3];
+    document.write("最大值是:" + (max - 1));
+    break;
+  }
+
+</script>
