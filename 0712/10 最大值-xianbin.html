@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+  var one;
+  var two;
+  var three;
+  var four;
+  var max;
+  while(true){
+    
+    if(!one){
+      var a = Number(prompt("请您输入第一个数字"));
+      if (String(a)==0) {
+        var one;
+        var two;
+        var three;
+        var four;
+        var max;
+        while(true){
+          
+          if(!one){
+            var a = Number(prompt("请您输入第一个数字"));
+            if(String(a)=="NaN"||String(a)==""||String(a)=="0"){
+              alert("只能输入一次");
+              continue;
+            }else{
+              one =a;
+            }
+            
+          }
+          
+          if(!two){
+            var b = Number(prompt("请您输入第二个数字"));
+            if(String(b)=="NaN"||String(b)==""||String(b)=="0"){
+              alert("您输入的数字有误");
+              continue;
+            }else{
+              two =b;
+            }
+          }
+          
+          if(!three){
+            var c = Number(prompt("请您输入第三个数字"));
+            if(String(c)=="NaN"||String(c)==""||String(c)=="0"){
+              alert("您输入的数字有误");
+              continue;
+            }else{
+              three =c;
+            }
+          }
+          
+          if(!four){
+            
+            var d = Number(prompt("请您输入第四个数字"));
+            if(String(d)=="NaN"||String(d)==""||String(d)=="0"){
+              alert("您输入的数字有误");
+              continue;
+            }else{
+              four =d;
+            }
+          }
+          
+          max = one>two?one:two;
+          max = max>three?max:three;
+          max = max>four?max:four;
+          document.write("最大值是:"+max);
+          break;
+        }
+      }
+      if(String(a)=="NaN"||String(a)==""){
+        alert("您输入的数字有错误");
+        continue;
+      }else{
+        one =a;
+      }
+      
+    }
+    
+    if(!two){
+      var b = Number(prompt("请您输入第二个数字"));
+      if (String(b)==0) {
+        alert("只能输入一次0");
+        continue;
+      }
+      if(String(b)=="NaN"||String(b)==""){
+        alert("您输入的数字有误");
+        continue;
+      }else{
+        two =b;
+      }
+    }
+    
+    if(!three){
+      var c = Number(prompt("请您输入第三个数字"));
+      if (String(c)==0) {
+        alert("只能输入一次0");
+        continue;
+      }
+      if(String(c)=="NaN"||String(c)==""){
+        alert("您输入的数字有误");
+        continue;
+      }else{
+        three =c;
+      }
+    }
+    
+    if(!four){
+      
+      var d = Number(prompt("请您输入第四个数字"));
+      if (String(c)==0) {
+        alert("只能输入一次0");
+        continue;
+      }
+      if(String(d)=="NaN"||String(d)==""){
+        alert("您输入的数字有误");
+        continue;
+      }else{
+        four =d;
+      }
+    }
+    
+    max = one>two?one:two;
+    max = max>three?max:three;
+    max = max>four?max:four;
+    document.write("最大值是:"+max);
+    break;
+  }
+
+</script>

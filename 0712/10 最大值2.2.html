@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+</html>
+<script>
+	var a;
+	var b;
+	var c;
+	var d;
+	var m;
+	var n;
+	var p;
+	var q;
+	var max;
+	while(true){
+		if(!a==true){
+			m = Number(prompt('输入第一个数字'));
+			if(String(m)=="NaN"){
+				alert('不是数字,请重输');
+				continue;
+			}
+			else{
+				a=m;
+			}
+		}
+		if(!b==true){
+			n = Number(prompt('输入第二个数字'));
+			if(String(n)=="NaN"){
+				alert('不是数字,请重输');
+				continue;
+			}
+			else if(a==0&&n==0){
+				alert('只能输入一次0');
+				continue;
+			}
+			else{
+				b=n;
+			}
+		}
+		
+		if(!c==true){
+			p = Number(prompt('输入第三个数字'));
+			if(String(p)=="NaN"){
+				alert('不是数字,请重输');
+				continue;
+			}
+			else if(a==0&&p==0||b==0&&p==0){
+				alert('只能输入一次0');
+				continue;
+			}
+			else{
+				c=p;
+			}
+		}
+		if(!d==true){
+			q = Number(prompt('输入第四个数字'));
+			if(String(q)=="NaN"){
+				alert('不是数字,请重输');
+				continue;
+			}
+			else if(a==0&&q==0||b==0&&q==0||c==0&&q==0){
+				alert('只能输入一次0');
+				continue;
+			}
+			else{
+				d=q;
+			}
+		}
+		
+		max = a>b?a:b;
+		max = max>c?max:c;
+		max = max>d?max:d;
+		document.write('最大值是'+max);
+		break;
+	}
+</script>

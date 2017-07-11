@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body{
+      font-size: 40px;
+      color:pink;
+    }
+  </style>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+  var a;
+  var b;
+  var c;
+  var d;
+  var sum;
+  var i=0;
+  while(true){
+    if(!a){
+      var one=Number(prompt("请输入第一个数字"));
+      if(String(one)=="NaN"){
+        alert("您输入有误，请重新输入");
+        continue;
+      }else{
+        a=one;
+      }
+      if(one==0){
+        i++;
+      }
+    }
+    if(!b){
+      var two=Number(prompt("请输入第二个数字"));
+      if(String(two)=="NaN"){
+        alert("您输入有误，请重新输入");
+        continue;
+      }else{
+        b=two;
+      }
+      if(two==0){
+        i++;
+      }
+    }
+    if(!c){
+      var three=Number(prompt("请输入第三个数字"));
+      if(String(three)=="NaN"){
+        alert("您输入有误，请重新输入");
+        continue;
+      }else{
+        c=three;
+      }
+      if(three==0){
+        i++;
+      }
+    }
+    if(!d){
+      var four=Number(prompt("请输入第四个数字"));
+      if(String(four)=="NaN"){
+        alert("您输入有误，请重新输入");
+        continue;
+      }else{
+        d=four;
+      }
+      if(four==0){
+        i++;
+      }
+    }
+    if(i>1){
+      alert("您输入有误，请重新输入");
+    }
+    max=a>b?a:b;
+    max=max>c?max:c;
+    max=max>d?max:d;
+    document.write("最大值是："+max);
+    break;
+    
+  }
+</script>

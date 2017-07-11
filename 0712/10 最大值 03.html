@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+  
+var one;
+var two;
+var three;
+var four;
+var max;
+
+while(true){
+
+  if(!one){
+    var a = Number( prompt("请输入第一个数字"));
+    if(String(a) == "NaN"||String(a) == ""){
+      alert("您的输入有误");
+      continue;
+    }else{
+      one=a;
+    }
+  }
+    if (!two) {
+      var b = Number(prompt("请输入第二个数字"));
+      if (String(b) == "NaN" || String(b) == "") {
+        alert("您的输入有误");
+        continue;
+      } else {
+        two = b;
+      }
+      if(!!a+!!b<1){
+        alert("输入重复");
+        one=1;
+        continue;
+      }
+    }
+    if (!three) {
+      var c = Number(prompt("请输入第三个数字"));
+      if (String(c) == "NaN" || String(c) == "") {
+        alert("您的输入有误");
+        continue;
+      } else {
+        three = c;
+      }
+      if(!!a+!!b+!!c<2){
+        alert("输入重复");
+        one=1;
+        two=1;
+        continue;
+      }
+    }
+    if (!four) {
+      var d = Number(prompt("请输入第四个数字"));
+      if (String(d) == "NaN" || String(d) == "") {
+        alert("您的输入有误");
+        continue;
+      } else {
+        four = d;
+      }
+      if(!!a+!!b+!!c+!!d<3){
+        alert("输入重复");
+        one=1;
+        two=1;
+        three=1
+        continue;
+      }
+    }
+  
+  
+  max = a>b? a:b;
+  max = max>c? max:c;
+  max = max>d? max:d;
+  document.write("最大值是：" + max);
+  break;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>

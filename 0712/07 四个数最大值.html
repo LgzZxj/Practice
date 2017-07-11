@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script>
+    while (true){
+      var a = Number(prompt("请输入一个数字"));
+      var b = Number(prompt("请输入一个数字"));
+      var c = Number(prompt("请输入一个数字"));
+      var d = Number(prompt("请输入一个数字"));
+      if(String(a)=="NaN" || String(b)=="NaN" || String(c)=="NaN" || String(d)=="NaN"){
+        alert("输入有误,请重新输入");
+//        continue;
+      break;
+      }
+      
+      var max;
+      max = a>b?a:b;
+      max = max>c?max:c;
+      max = max>d?max:d;
+      document.write("最大值是"+max);
+      break;
+    }
+    
+  </script>
+  
+</head>
+<body>
+
+</body>
+</html>
