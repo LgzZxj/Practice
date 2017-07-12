@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+  var name = "admin";
+  var psw = 888;
+      
+  while (true){
+    var userName = prompt("请输入用户名");
+    var password = +prompt("请输入密码");
+    
+    if(password == psw && userName == name){
+      document.write("欢迎您")
+      break;
+    }
+    else{
+      alert("输入有误");
+      continue;
+    }
+  }
+</script>

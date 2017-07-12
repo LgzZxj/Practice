@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script>
+    var psw = 888;
+    var name = "admin";
+    for (i=0; i<=1 ; i++){
+  
+      var userName = prompt("请输入用户名");
+      var password = +prompt("请输入密码");
+      
+      if (password == psw && userName == name){
+        document.write("热烈欢迎!")
+        break;
+      }
+      else{
+        if(1-i>0){
+          alert("输入错误,请重新输入");
+        }
+        else{
+          alert("输入次数过多,账号被锁定");
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+
+</body>
+</html>

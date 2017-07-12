@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script>
+    var count = [];
+    var age = [];
+    var sum = 0;
+    var avg;
+    
+    while (true){
+      
+      if (count[0]==undefined){
+        age[0] = + prompt("请输入第一个年龄");
+        var one = String(age[0]);
+        
+        if(one == "NaN"){
+          alert("输入有误,请重新输入")
+          continue;
+        }
+        else{
+          if(age[0]<0||age[0]>100){
+            alert("输入错误,请重新输入");
+            continue;
+          }
+          else{
+            sum = sum + age[0];
+            count[0]=1;
+          }
+        }
+      }
+  
+      if (count[1]==undefined){
+        age[1] = +prompt("请输入第二个年龄");
+        var two = String(age[1]);
+  
+        if(two == "NaN"){
+          alert("输入有误,请重新输入")
+          continue;
+        }
+        else{
+          if(age[1]<0||age[1]>100){
+            alert("输入错误,请重新输入");
+            continue;
+          }
+          else{
+            sum = sum + age[1];
+            count[1]=1;
+          }
+        }
+      }
+  
+      if (count[2]==undefined){
+        age[2] = +prompt("请输入第三个年龄");
+        var three = String(age[2]);
+  
+        if(three == "NaN"){
+          alert("输入有误,请重新输入")
+          continue;
+        }
+        else{
+          if(age[2]<0||age[2]>100){
+            alert("输入错误,请重新输入");
+            continue;
+          }
+          else{
+            sum = sum + age[2];
+            count[2]=1;
+          }
+        }
+      }
+  
+      if (count[3]==undefined){
+        age[3] = +prompt("请输入第四个年龄");
+        var four = String(age[3]);
+        
+        if(four == "NaN"){
+          alert("输入有误,请重新输入")
+          continue;
+        }
+        else{
+          if(age[3]<0||age[3]>100){
+            alert("输入错误,请重新输入");
+            continue;
+          }
+          else{
+            sum = sum + age[3];
+            count[3]=1;
+          }
+        }
+      }
+  
+      if (count[4]==undefined){
+        age[4] = +prompt("请输入第五个年龄");
+        var five = String(age[4]);
+  
+        if(five == "NaN"){
+          alert("输入有误,请重新输入")
+          continue;
+        }
+        
+        else{
+          if(age[4]<0||age[4]>100){
+            alert("输入错误,请重新输入");
+            continue;
+          }
+          else{
+            sum = sum + age[4];
+            count[4]=1;
+          }
+        }
+      }
+     
+      avg = sum / 5;
+      document.write("平均年龄是:"+avg);
+      break;
+      
+    }
+  </script>
+</head>
+<body>
+
+</body>
+</html>
