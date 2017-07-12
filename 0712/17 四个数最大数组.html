@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+
+</body>
+</html>
+<script>
+  var a;
+  var b;
+  var c;
+  var d;
+  var one;
+  var two;
+  var three;
+  var four;
+  var arr =[];
+  var max;
+  
+  while(true){
+    
+    if(one==undefined){
+      a = +prompt("请输入第一个数字");
+      if(String(a)=="NaN"||String(a)==""){
+        alert("输入有误,请重新输入");
+        continue;
+      }
+      else{
+        if(a==0){
+          arr[0]=0;
+        }
+        one = a;
+      }
+    }
+  
+    if(two == undefined){
+      b = +prompt("请输入第二个数字");
+      if(String(b)=="NaN"||String(b)==""){
+        alert("输入有误,请重新输入");
+        continue;
+      }
+      else{
+        if(arr[0]==0 && b==0){
+          alert("输入0次数过多,请重新输入");
+          continue;
+        }
+        else{
+          arr[0]=0;
+        }
+        two = b;
+      }
+    }
+  
+    if(three == undefined){
+      c = +prompt("请输入第三个数字");
+      if(String(c)=="NaN"||String(c)==""){
+        alert("输入有误,请重新输入");
+        continue;
+      }
+      else{
+        if(arr[0]==0&&c==0){
+          alert("输入0次数过多,请重新输入");
+          continue;
+        }
+        else{
+          arr[0]=0;
+        }
+        three = c;
+      }
+    }
+  
+    if(four == undefined){
+      d = +prompt("请输入第四个数字");
+      if(String(d)=="NaN"||String(d)==""){
+        alert("输入有误,请重新输入");
+        continue;
+      }
+      else{
+        if(arr[0]==0&&d==0){
+          alert("输入0次数过多,请重新输入");
+          continue;
+        }
+        else{
+          arr[0]=0;
+        }
+        four = d;
+      }
+    }
+    
+    max = a>b?a:b;
+    max = max>c?max:c;
+    max = max>d?max:d;
+    document.write("最大数字为:"+max);
+    break;
+  }
+</script>
